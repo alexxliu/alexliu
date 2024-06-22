@@ -1,8 +1,13 @@
 import './App.css';
+import Home from './pages/Home/Home';
+import Contact from './pages/Contact/Contact';
 
-function App() {
+function App() {  
   return (
-    <h1>hello</h1>
+    <>
+      <Home />
+      <Contact />
+    </>
   );
 }
 
