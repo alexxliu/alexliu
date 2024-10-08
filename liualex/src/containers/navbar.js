@@ -1,9 +1,12 @@
 import React from 'react';
 import linkedinIcon from '../images/linkedin.png';
+import githubIcon from '../images/github.png'
+import resumeIcon from '../images/resume.png'
+import resumePDF from '../items/alexliu.pdf'
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 bg-opacity-50 p-4 fixed w-full top-0 left-0 z-50">
+    <nav className="bg-cyan-500 bg-opacity-50 p-4 fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2 text-white text-2xl font-bold">
           <span>
@@ -22,6 +25,28 @@ const Navbar = () => {
             <img
               src={linkedinIcon}
               alt="LinkedIn"
+              className="w-6 h-6"
+            />
+          </a>
+          <a 
+            href="https://github.com/alexxliu" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img
+              src={githubIcon}
+              alt="GitHub"
+              className="w-6 h-6"
+            />
+          </a>
+          <a 
+            href={resumePDF} 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img
+              src={resumeIcon}
+              alt="Resume"
               className="w-6 h-6"
             />
           </a>
