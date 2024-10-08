@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Home = () => {
+const About = () => {
   return (
-    <div id="home" className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
+    <div id="About" className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
       <img
         src="../images/ah.png"
         alt="Your Name"
@@ -16,4 +16,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
