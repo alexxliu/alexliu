@@ -13,7 +13,7 @@ const Navbar = () => {
             <a 
                   href="#home"  
                   rel="noopener noreferrer"
-                  className="hover:text-white"
+                  className="hover:text-white transition duration-300"
                 >
                     alex liu
             </a>
@@ -26,7 +26,7 @@ const Navbar = () => {
             <img
               src={linkedinIcon}
               alt="LinkedIn"
-              className="w-6 h-6 hover:invert"
+              className="w-6 h-6 hover:invert transition duration-300"
             />
           </a>
           <a 
@@ -37,7 +37,7 @@ const Navbar = () => {
             <img
               src={githubIcon}
               alt="GitHub"
-              className="w-6 h-6"
+              className="w-6 h-6 hover:invert transition duration-300"
             />
           </a>
           <a 
@@ -48,15 +48,15 @@ const Navbar = () => {
             <img
               src={resumeIcon}
               alt="Resume"
-              className="w-6 h-6"
+              className="w-6 h-6 hover:invert transition duration-300"
             />
           </a>
         </div>
         <ul className="flex space-x-4 text-white">
-          <li><a href="#about" className="hover:text-gray-800">about</a></li>
-          <li><a href="#experience" className="hover:text-gray-800">experience</a></li>
-          <li><a href="#projects" className="hover:text-gray-800">projects</a></li>
-          <li><a href="#contact" className="hover:text-gray-300">contact</a></li>
+          <li><a href="#about" className="hover:text-gray-800 transition duration-300">about</a></li>
+          <li><a href="#experience" className="hover:text-gray-800 transition duration-300">experience</a></li>
+          <li><a href="#projects" className="hover:text-gray-800 transition duration-300">projects</a></li>
+          <li><a href="#contact" className="hover:text-gray-800 transition duration-300">contact</a></li>
         </ul>
       </div>
     </nav>
