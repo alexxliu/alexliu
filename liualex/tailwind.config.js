@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['Quicksand', 'Helvetica', 'Arial', 'sans-serif'], // Define Quicksand as your primary font
       },
+      transitionDelay: {
+        '2000': '2000ms',
+      }
     },
   },
   plugins: [],
