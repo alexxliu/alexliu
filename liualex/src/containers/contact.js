@@ -19,8 +19,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Replace with your actual Formspree form URL
-    const formUrl = 'https://formspree.io/f/xgegylkb';
+    const formUrl = 'https://formspree.io/f/{your_form_id}'; 
     
     const response = await fetch(formUrl, {
       method: 'POST',
@@ -35,16 +34,21 @@ const ContactForm = () => {
     });
 
     if (response.ok) {
-      setSubmitted(true); // Mark form as submitted
+      setSubmitted(true);
     }
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="flex items-center justify-center h-screen bg-gray-100">
       {submitted ? (
-        <div className="text-green-500">Thank you! Your message has been sent.</div>
+        <div className="text-green-500 text-center">
+          Thank you! Your message has been sent.
+        </div>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form 
+          onSubmit={handleSubmit} 
+          className="bg-white shadow-md rounded-lg p-8 space-y-4 w-full max-w-lg"
+        >
           <div>
             <label htmlFor="name" className="block text-gray-700">Name</label>
             <input
@@ -83,7 +87,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-600 text-white px-4 py-2 rounded-md"
+            className="bg-blue-600 text-white px-4 py-2 rounded-md w-full"
           >
             Send Message
           </button>
