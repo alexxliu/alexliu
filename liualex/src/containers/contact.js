@@ -39,7 +39,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id = "contact" className="flex items-center justify-center h-screen bg-gray-100">
+    <div id = "contact" className="relative flex flex-col items-center justify-center h-screen bg-gray-100">
       {submitted ? (
         <div className="text-green-500 text-center">
           Thank you! Your message has been sent.
@@ -93,6 +93,9 @@ const ContactForm = () => {
           </button>
         </form>
       )}
+      <p className="absolute bottom-0 text-sm text-gray-800 mb-4">
+        Copyright &copy; {new Date().getFullYear()} Alex Liu. All rights reserved.
+      </p>
     </div>
   );
 };
