@@ -4,15 +4,14 @@ import Arrow from '../images/arrowDown.png'
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen space-x-16">
-      <div className="flex items-center justify-center ">
+      <div className="flex flex-col sm:flex-row items-center items-center justify-center min-h-screen sm:space-x-16">
         <img
           src={Dinosaur}
           alt="Your Name"
-          className="w-80 h-80 rounded-full outline outline-cyan-500 mb-4 shadow-lg"
+          className="w-48 h-48 sm:w-80 sm:h-80 rounded-full outline outline-cyan-500 mb-4 shadow-lg"
         />
         <div id="about" className="flex flex-col items-center justify-center w-2/5 p-4 bg-white">
-          <h1 className="text-3xl font-bold text-cyan-500">about me</h1>
+          <h1 className="text-4xl font-bold text-cyan-500">about me</h1>
           <br/>
           <div className="mt-2 text-lg text-gray-700 text-left">
             <p>
@@ -29,11 +28,12 @@ const About = () => {
           </div>
         </div>
       </div>
-      <img
-            src={Arrow}
-            className="w-48 h-48 fill-cyan-500"
-      />
-    </div>
+      // {/* <a href="#experience">
+      //   <img
+      //     src={Arrow}
+      //     className="w-36 h-36 absolute bottom-8 fill-cyan-500 hover hover:scale-125"
+      //   />
+      // </a> */}
   );
 };
 
