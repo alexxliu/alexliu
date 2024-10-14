@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2 text-gray-800 text-2xl font-bold">
           <span>
             <a 
-                  href="#home"  
+                  href="#about"  
                   rel="noopener noreferrer"
                   className="hover:text-white transition duration-300"
                 >

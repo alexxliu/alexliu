@@ -39,7 +39,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div id = "contact" className="relative flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div id = "contact" className="relative flex flex-col items-center justify-center h-screen">
       {submitted ? (
         <div className="text-green-500 text-center">
           Thank you! Your message has been sent.
@@ -89,7 +89,7 @@ const ContactForm = () => {
             type="submit"
             className="bg-blue-600 text-white px-4 py-2 rounded-md w-full"
           >
-            Send Message
+            Submit
           </button>
         </form>
       )}

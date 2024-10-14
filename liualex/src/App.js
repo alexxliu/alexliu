@@ -1,5 +1,4 @@
 import Navbar from './containers/navbar'
-import Home from './containers/home'
 import About from './containers/about';
 import Experience from './containers/experience';
 import Projects from './containers/projects';
