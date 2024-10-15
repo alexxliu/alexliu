@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      {/* <Home></Home> */}
       <About></About>
       <Experience></Experience>
       <Projects></Projects>
