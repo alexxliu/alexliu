@@ -4,8 +4,8 @@ import Arrow from '../images/arrowDown.png'
 
 const About = () => {
   return (
-      <div className="flex flex-col sm:flex-row items-center items-center justify-center min-h-screen sm:space-x-16">
-        <div className="flex flex-col">
+      <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-h-screen sm:space-x-16">
+        <div className="flex flex-col sm:border-none border-b-4 border-gray-800 p-3">
           <img
             src={Dinosaur}
             alt="Your Name"
@@ -15,7 +15,7 @@ const About = () => {
             alex liu
           </h1>
         </div>
-        <div id="about" className="flex flex-col items-center justify-center w-2/5 p-4 bg-white">
+        <div className="flex flex-col items-center justify-center w-2/5 p-4">
           <h1 className="text-4xl font-bold text-cyan-500">about me</h1>
           <br/>
           <div className="mt-2 text-lg text-gray-700 text-left">

@@ -3,15 +3,17 @@ import About from './containers/about';
 import Experience from './containers/experience';
 import Projects from './containers/projects';
 import ContactForm from './containers/contact'
+import Copyright from './containers/copyright';
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
-      <About></About>
-      <Experience></Experience>
-      <Projects></Projects>
-      <ContactForm></ContactForm>
+      <Navbar/>
+      <About/>
+      <Experience/>
+      <Projects/>
+      <ContactForm/>
+      <Copyright/>
     </div>
 
   );

@@ -93,9 +93,6 @@ const ContactForm = () => {
           </button>
         </form>
       )}
-      <p className="absolute bottom-0 text-sm text-gray-800 mb-4">
-        Copyright &copy; {new Date().getFullYear()} Alex Liu. All rights reserved.
-      </p>
     </div>
   );
 };
