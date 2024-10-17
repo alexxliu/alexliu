@@ -19,7 +19,7 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const formUrl = 'https://formspree.io/f/{your_form_id}'; 
+    const formUrl = 'https://formspree.io/f/xgegylkb'; 
     
     const response = await fetch(formUrl, {
       method: 'POST',
@@ -39,10 +39,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div id = "contact" className="relative flex flex-col items-center justify-center h-screen">
+    <div id = "contact" className="relative flex flex-col items-center justify-center min-h-screen">
       {submitted ? (
-        <div className="text-green-500 text-center">
-          Thank you! Your message has been sent.
+        <div className="text-cyan-500 text-lg text-center">
+          thank you! your message has been sent.
         </div>
       ) : (
         <form 
@@ -50,7 +50,7 @@ const ContactForm = () => {
           className="bg-white shadow-md rounded-lg p-8 space-y-4 w-full max-w-lg"
         >
           <div>
-            <label htmlFor="name" className="block text-gray-700">Name</label>
+            <label htmlFor="name" className="block text-cyan-500">name</label>
             <input
               type="text"
               name="name"
@@ -62,7 +62,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="email" className="block text-gray-700">Email</label>
+            <label htmlFor="email" className="block text-cyan-500">email</label>
             <input
               type="email"
               name="email"
@@ -74,7 +74,7 @@ const ContactForm = () => {
             />
           </div>
           <div>
-            <label htmlFor="message" className="block text-gray-700">Message</label>
+            <label htmlFor="message" className="block text-cyan-500">message</label>
             <textarea
               name="message"
               id="message"
@@ -87,9 +87,9 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue-600 text-white px-4 py-2 rounded-md w-full"
+            className="bg-cyan-500 text-white px-4 py-2 rounded-md w-full"
           >
-            Submit
+            submit
           </button>
         </form>
       )}
