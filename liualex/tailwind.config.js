@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Quicksand', 'Helvetica', 'Arial', 'sans-serif'], // Define Quicksand as your primary font
+        sans: ['Quicksand', 'Helvetica', 'Arial', 'sans-serif'],
+      },
+      minWidth: {
+        'global': '550px',
       },
     },
   },

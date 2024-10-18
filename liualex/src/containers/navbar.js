@@ -6,7 +6,7 @@ import resumePDF from '../items/alexliu.pdf'
 
 const Navbar = () => {
   return (
-    <nav className="bg-cyan-500 bg-opacity-50 p-5 fixed w-full top-0 left-0 z-50">
+    <nav className="bg-cyan-500 bg-opacity-50 p-5 fixed w-full min-w-global top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2 text-gray-800 text-2xl font-bold">
           <span>

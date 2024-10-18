@@ -4,7 +4,7 @@ import Arrow from '../images/arrowDown.png'
 
 const About = () => {
   return (
-      <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-h-screen sm:space-x-16">
+      <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-w-global min-h-screen sm:space-x-16">
         <div className="flex flex-col sm:border-none border-b-4 border-gray-800 p-3">
           <img
             src={Dinosaur}
