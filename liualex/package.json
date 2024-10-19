@@ -1,7 +1,7 @@
 {
   "name": "liualex",
   "version": "0.1.0",
-  "homepage": "https://alexxliu.github.io/alexliu",
+  "homepage": "https://liualex.me",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.5.1",
