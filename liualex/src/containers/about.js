@@ -4,6 +4,9 @@ import Dinosaur from '../images/dinosaurPaint.png'
 const About = () => {
   return (
       <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-w-global min-h-screen sm:space-x-16">
+        <p className="sm:hidden mt-24 w-2/5">
+          if you see this you're probably on mobile. can you pinch your screen and zoom out so it works. mb guys idk how to fix it
+        </p>
         <div className="flex flex-col sm:border-none border-b-4 border-gray-800">
           <img
             src={Dinosaur}
