@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d08af3b.css",
-    "main.js": "/static/js/main.52ef9ed6.js",
+    "main.css": "/static/css/main.6701889e.css",
+    "main.js": "/static/js/main.f41f1deb.js",
     "static/media/alexliu.pdf": "/static/media/alexliu.815573637aff870ae435.pdf",
     "static/media/dinosaurPaint.png": "/static/media/dinosaurPaint.bae706e622a8b575f63a.png",
     "static/media/robloxPaint.png": "/static/media/robloxPaint.51966f33de5b280095c2.png",
     "static/media/trainPaint.png": "/static/media/trainPaint.ebb1785500ef46cf1657.png",
     "static/media/nationwidePaint.png": "/static/media/nationwidePaint.1859eb2c1bb7d7f4c28a.png",
     "index.html": "/index.html",
-    "main.0d08af3b.css.map": "/static/css/main.0d08af3b.css.map",
-    "main.52ef9ed6.js.map": "/static/js/main.52ef9ed6.js.map"
+    "main.6701889e.css.map": "/static/css/main.6701889e.css.map",
+    "main.f41f1deb.js.map": "/static/js/main.f41f1deb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d08af3b.css",
-    "static/js/main.52ef9ed6.js"
+    "static/css/main.6701889e.css",
+    "static/js/main.f41f1deb.js"
   ]
 }
