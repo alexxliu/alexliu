@@ -1,5 +1,7 @@
 import React from 'react';
-import Roblox from '../images/roblox.webp'
+import Roblox from '../images/robloxPaint.png'
+import Train from '../images/trainPaint.png'
+import Nationwide from '../images/nationwidePaint.png'
 
 const Experience = () => {
   return (
@@ -23,70 +25,49 @@ const Experience = () => {
           <img 
             src={Roblox}
             alt="roblox"
-            className="w-20 h-20 ml-5"
+            className="w-40 h-40"
           />
         </div>
 
         <div className="flex mt-2 items-center justify-evenly">
+          <img 
+            src={Train}
+            alt="wabtec"
+            className="w-40 h-40"
+          />
           <div className="flex-col">
             <p className="font-bold text-2xl text-gray-700 text-left">
-              roblox
+              wabtec
             </p>
             <p className="italic text-lg test-gray-500 text-left">
               swe intern
             </p>
             <ul class="list-disc">
               <li className="text-lg ml-4 text-gray-700 text-left">
-                i work here next summa
+                train go choo choo
               </li>
             </ul>
           </div> 
-          <img 
-            src={Roblox}
-            alt="roblox"
-            className="w-20 h-20 ml-5"
-          />
         </div>
 
         <div className="flex mt-2 items-center justify-evenly">
           <div className="flex-col">
             <p className="font-bold text-2xl text-gray-700 text-left">
-              roblox
+              nationwide
             </p>
             <p className="italic text-lg test-gray-500 text-left">
-              swe intern
+              data science intern
             </p>
             <ul class="list-disc">
               <li className="text-lg ml-4 text-gray-700 text-left">
-                i work here next summa
+                cars and monie numbers
               </li>
             </ul>
           </div> 
           <img 
-            src={Roblox}
-            alt="roblox"
-            className="w-20 h-20 ml-5"
-          />
-        </div>
-
-        <div className="flex mt-2 items-center justify-evenly">
-          <div className="flex-col">
-            <p className="font-bold text-2xl text-gray-700 text-left">
-              roblox
-            </p>
-            <p className="italic text-lg test-gray-500 text-left">
-              swe intern
-            </p>
-            <ul class="list-disc">
-              <li className="text-lg ml-4 text-gray-700 text-left">
-                i work here next summa
-              </li>
-            </ul>
-          </div> 
-          <img 
-            src={Roblox}
-            alt="roblox"
-            className="w-20 h-20 ml-5"
+            src={Nationwide}
+            alt="nationwide"
+            className="w-40 h-40"
           />
         </div>
 

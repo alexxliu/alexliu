@@ -1,6 +1,5 @@
 import React from 'react';
 import Dinosaur from '../images/dinosaurPaint.png'
-import Arrow from '../images/arrowDown.png'
 
 const About = () => {
   return (

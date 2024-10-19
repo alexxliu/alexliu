@@ -40,6 +40,7 @@ const ContactForm = () => {
 
   return (
     <div id = "contact" className="relative flex flex-col items-center justify-center min-w-global min-h-screen">
+      <h1 className="text-4xl font-bold text-cyan-500 mb-4 mt-4">contact</h1>
       {submitted ? (
         <div className="text-cyan-500 text-lg text-center">
           thank you! your message has been sent.
