@@ -4,11 +4,11 @@ import Dinosaur from '../images/dinosaurPaint.png'
 const About = () => {
   return (
       <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-w-global min-h-screen sm:space-x-16">
-        <div className="flex flex-col sm:border-none border-b-4 border-gray-800 p-3">
+        <div className="flex flex-col sm:border-none border-b-4 border-gray-800">
           <img
             src={Dinosaur}
             alt="Your Name"
-            className="w-48 h-48 sm:w-80 sm:h-80 rounded-full outline outline-cyan-500 mb-4 shadow-lg"
+            className="w-48 h-48 sm:w-80 sm:h-80 rounded-full outline outline-cyan-500 mb-4 sm:mt-0 mt-24 shadow-lg"
           />
           <h1 className="flex justify-center text-6xl font-bold test-gray-800">
             alex liu
