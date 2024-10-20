@@ -52,7 +52,7 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <ul className="flex space-x-4 text-white">
+        <ul className="sm:flex hidden sm:space-x-4 text-white">
           <li><a href="#about" className="hover:text-gray-800 transition duration-300">about</a></li>
           <li><a href="#experience" className="hover:text-gray-800 transition duration-300">experience</a></li>
           <li><a href="#projects" className="hover:text-gray-800 transition duration-300">projects</a></li>

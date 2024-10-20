@@ -17,7 +17,7 @@ const About = () => {
             alex liu
           </h1>
         </div>
-        <div className="flex flex-col items-center justify-center sm:w-2/5 w-3/5 p-4">
+        <div className="flex flex-col items-center justify-center sm:w-2/5 w-3/4 p-4">
           <h1 className="text-4xl font-bold text-cyan-500 sm:pb-4">about me</h1>
           <div className="text-lg text-gray-700 sm:text-left text-center">
             <p>
