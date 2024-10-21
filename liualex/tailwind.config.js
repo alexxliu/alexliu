@@ -9,7 +9,7 @@ module.exports = {
         sans: ['Quicksand', 'Helvetica', 'Arial', 'sans-serif'],
       },
       minWidth: {
-        'global': '410px',
+        'global': '400px',
       },
     },
   },
