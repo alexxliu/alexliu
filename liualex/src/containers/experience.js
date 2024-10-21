@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div id="experience" className="flex flex-col items-center justify-center min-w-global min-h-screen">
       <h1 className="text-4xl font-bold text-cyan-500">experience</h1>
-      <div className="w-3/5 p-4">
+      <div className="sm:w-3/5 w-3/4 p-4">
         {/* <div className="flex mt-2 items-center justify-evenly">
           <div className="flex-col">
             <p className="font-bold text-2xl text-gray-700 text-left">

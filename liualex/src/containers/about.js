@@ -4,9 +4,6 @@ import Me from '../images/me.JPG'
 const About = () => {
   return (
       <div id="about" className="flex flex-col sm:flex-row items-center items-center justify-center min-w-global min-h-screen sm:space-x-16">
-        <p className="sm:hidden mt-24 w-2/5">
-          if you see this you're probably on mobile. can you pinch your screen and zoom out so it works. mb guys idk how to fix it
-        </p>
         <div className="flex flex-col sm:border-none border-b-4 border-gray-800">
           <img
             src={Me}
@@ -18,7 +15,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex flex-col items-center justify-center sm:w-2/5 w-3/4 p-4">
-          <h1 className="text-4xl font-bold text-cyan-500 sm:pb-4">about me</h1>
+          <h1 className="text-4xl font-bold text-cyan-500 sm:mt-0 mt-8 pb-4">about me</h1>
           <div className="text-lg text-gray-700 sm:text-left text-center">
             <p>
                 i'm currently a junior in computer science at purdue university, and an incoming software engineering intern at _____.

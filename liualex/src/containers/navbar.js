@@ -13,9 +13,18 @@ const Navbar = () => {
             <a 
                   href="#about"  
                   rel="noopener noreferrer"
-                  className="hover:text-white transition duration-300"
+                  className="hidden sm:flex hover:text-white transition duration-300"
                 >
                     alex liu
+            </a>
+          </span>
+          <span>
+            <a 
+                  href="#about"  
+                  rel="noopener noreferrer"
+                  className="flex sm:hidden hover:text-white transition duration-300"
+                >
+                    al
             </a>
           </span>
           <a 
@@ -52,7 +61,7 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <ul className="sm:flex hidden sm:space-x-4 text-white">
+        <ul className="flex sm:space-x-4 space-x-2 sm:text-base text-sm text-white">
           <li><a href="#about" className="hover:text-gray-800 transition duration-300">about</a></li>
           <li><a href="#experience" className="hover:text-gray-800 transition duration-300">experience</a></li>
           <li><a href="#projects" className="hover:text-gray-800 transition duration-300">projects</a></li>
