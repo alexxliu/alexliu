@@ -64,7 +64,7 @@ const About = () => {
           <h1 className="text-4xl font-bold text-cyan-500 sm:mt-0 mt-8 pb-4">about me</h1>
           <div className="text-lg text-gray-700 sm:text-left text-center">
             <p>
-                i'm currently a junior in computer science at purdue university, and an incoming software engineering intern at roblox.
+                i'm a junior in computer science at purdue university, interested in cloud computing - specifically distributed systems.
             </p>
             <br/>
             <p>
