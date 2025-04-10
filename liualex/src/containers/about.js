@@ -1,5 +1,5 @@
 import React from 'react';
-import Me from '../images/meDrawing.jpg'
+import Me from '../images/me2.JPG'
 import linkedinIcon from '../images/linkedin.png'
 import githubIcon from '../images/github.png'
 import resumeIcon from '../images/resume.png'
